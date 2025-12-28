@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budapest 2026 | Trip Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold: #D4AF37; --dark-bg: #121212; --card-bg: #1e1e1e; --text-main: #e0e0e0; }
+        body { font-family: 'Assistant', sans-serif; background-color: var(--dark-bg); color: var(--text-main); margin: 0; padding: 0; }
+        
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.pexels.com/photos/1531660/pexels-photo-1531660.jpeg');
+            background-size: cover; background-position: center; height: 350px; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+            border-bottom: 3px solid var(--gold);
+        }
+        
+        h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; margin: 0; color: var(--gold); text-shadow: 2px 2px 10px rgba(0,0,0,0.8); }
+        .hero p { font-size: 1.3rem; margin-top: 10px; font-weight: 300; }
+
+        .container { max-width: 900px; margin: -50px auto 50px; padding: 20px; }
+
+        .day-card { background: var(--card-bg); border-radius: 20px; margin-bottom: 40px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.5); border: 1px solid #333; }
+        .day-image { height: 250px; width: 100%; object-fit: cover; border-bottom: 3px solid var(--gold); }
+        
+        .day-content { padding: 25px; }
+        .day-header { color: var(--gold); font-size: 1.8rem; font-weight: 700; margin-bottom: 20px; border-bottom: 1px solid #444; padding-bottom: 10px; }
+
+        .slot { border-right: 2px solid var(--gold); padding-right: 15px; margin-bottom: 20px; }
+        .time { font-weight: 700; color: var(--gold); font-size: 0.9rem; margin-bottom: 4px; display: block; }
+        .location { font-size: 1.25rem; font-weight: bold; color: #fff; margin-bottom: 2px; }
+        .address { font-size: 0.85rem; color: #aaa; margin-bottom: 10px; display: block; }
+
+        .btn-group { display: flex; gap: 10px; margin-top: 10px; }
+        .btn { padding: 8px 18px; font-size: 0.8rem; border-radius: 30px; text-decoration: none; font-weight: bold; transition: 0.3s; display: inline-block; }
+        .btn-map { background: #34a853; color: white; }
+        .btn-site { border: 1px solid var(--gold); color: var(--gold); }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); }
+
+        .footer { text-align: center; padding: 40px; color: var(--gold); font-size: 1rem; border-top: 1px solid #333; }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>BUDAPEST</h1>
+    <p>04.01 - 08.01 | החופשה המושלמת לזוג</p>
+</div>
+
+<div class="container">
+    
+    <div class="day-card">
+        <img src="https://images.pexels.com/photos/10360815/pexels-photo-10360815.jpeg" class="day-image" alt="Vaci Street & Center">
+        <div class="day-content">
+            <div class="day-header">🗓️ יום ראשון: מרכז פשט</div>
+            <div class="slot">
+                <span class="time">בוקר</span>
+                <span class="location">מלון Ensana Grand - התארגנות</span>
+                <span class="address">Margaret Island | נווה מדבר בלב העיר</span>
+            </div>
+            <div class="slot">
+                <span class="time">צהריים</span>
+                <span class="location">מדרחוב ואצי (Váci utca)</span>
+                <span class="address">שופינג ומותגים ברחוב המפורסם בעיר</span>
+                <div class="btn-group"><a href="https://maps.google.com/?q=Vaci+utca+Budapest" class="btn btn-map">📍 ניווט לשם</a></div>
+            </div>
+            <div class="slot">
+                <span class="time">אחר הצהריים</span>
+                <span class="location">השוק המקורה הגדול (Great Market Hall)</span>
+                <span class="address">מזכרות, קומת אומנות ואווירה הונגרית אותנטית</span>
+                <div class="btn-group"><a href="https://maps.google.com/?q=Great+Market+Hall+Budapest" class="btn btn-map">📍 ניווט לשוק</a></div>
+            </div>
+            <div class="slot">
+                <span class="time">ערב</span>
+                <span class="location">ארוחת ערב: אשיז (Ashez)</span>
+                <span class="address">Dob u. 30 | המבורגר כשר בלב הרובע</span>
+            </div>
+            <div class="slot">
+                <span class="time">לילה</span>
+                <span class="location">מתחם Gozsdu Udvar</span>
+                <span class="address">הלב הפועם של חיי הלילה לצעירים</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="day-card">
+        <img src="https://images.pexels.com/photos/3566136/pexels-photo-3566136.jpeg" class="day-image" alt="Parliament & Danube">
+        <div class="day-content">
+            <div class="day-header">🗓️ יום שני: אאוטלט ומסיבת שייט</div>
+            <div class="slot">
+                <span class="time">בוקר</span>
+                <span class="location">ארוחת בוקר: אפ טאון בייקרי</span>
+                <span class="address">Dob u. 8 | להתחיל את היום עם מאפה כשר</span>
+            </div>
+            <div class="slot">
+                <span class="time">צהריים</span>
+                <span class="location">Premier Outlet</span>
+                <span class="address">קניית מותגים במחירי עודפים (נסיעה ב-Bolt)</span>
+                <div class="btn-group"><a href="https://maps.google.com/?q=Premier+Outlet+Biatorbagy" class="btn btn-map">📍 ניווט לאאוטלט</a></div>
+            </div>
+            <div class="slot">
+                <span class="time">אחר הצהריים</span>
+                <span class="location">שייט רגוע בדנובה</span>
+                <span class="address">תצפית הכי יפה על בניין הפרלמנט מהמים</span>
+            </div>
+            <div class="slot">
+                <span class="time">לילה</span>
+                <span class="location">Boat Party 🎉</span>
+                <span class="address">Dock 7 | מסיבת שייט עם DJ ואווירה מטורפת</span>
+                <div class="btn-group"><a href="https://budapestrivercruise.com/boat-party" class="btn btn-site">🎟️ להזמנת מקום</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="day-card">
+        <img src="https://images.pexels.com/photos/1010645/pexels-photo-1010645.jpeg" class="day-image" alt="City Park Ice Rink">
+        <div class="day-content">
+            <div class="day-header">🗓️ יום שלישי: ספא, שופינג והחלקה</div>
+            <div class="slot">
+                <span class="time">בוקר</span>
+                <span class="location">ספא ומרחצאות תרמיים במלון</span>
+                <span class="address">Ensana Grand | להתחמם בסטייל בבוקר קפוא</span>
+            </div>
+            <div class="slot">
+                <span class="time">צהריים</span>
+                <span class="location">קניון WestEnd</span>
+                <span class="address">Váci út 1-3 | קניון ענק ומחומם לקניות בכיף</span>
+            </div>
+            <div class="slot">
+                <span class="time">ערב</span>
+                <span class="location">החלקה על הקרח ב-City Park</span>
+                <span class="address">האווירה הכי יפה בבודפשט ליד הטירה</span>
+                <div class="btn-group"><a href="https://maps.google.com/?q=City+Park+Ice+Rink+Budapest" class="btn btn-map">📍 ניווט למגרש</a></div>
+            </div>
+            <div class="slot">
+                <span class="time">לילה</span>
+                <span class="location">Szimpla Kert</span>
+                <span class="address">Kazinczy u. 14 | ביקור חובה בבר ההריסות המפורסם</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="day-card">
+        <img src="https://images.pexels.com/photos/2260783/pexels-photo-2260783.jpeg" class="day-image" alt="Night Budapest Lights">
+        <div class="day-content">
+            <div class="day-header">🗓️ יום רביעי: שופינג ופרידה</div>
+            <div class="slot">
+                <span class="time">בוקר</span>
+                <span class="location">ארוחת בוקר: ברוקלין בייגל</span>
+                <span class="address">Újpesti rkp. 1 | הבייגל הכי טוב בעיר</span>
+            </div>
+            <div class="slot">
+                <span class="time">צהריים</span>
+                <span class="location">קניון Arena Plaza</span>
+                <span class="address">Kerepesi út 9 | השלמות אחרונות של שופינג</span>
+            </div>
+            <div class="slot">
+                <span class="time">ערב</span>
+                <span class="location">ארוחת פרידה: מסעדת כרמל</span>
+                <span class="address">Kazinczy u. 31 | מסעדה בשרית כשרה ויוקרתית</span>
+            </div>
+            <div class="slot">
+                <span class="time">לילה</span>
+                <span class="location">גשר השלשלאות המואר</span>
+                <span class="address">תצפית פרידה אחרונה על האורות של בודה ופשט</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        🚀 תיהנו בבודפשט! אל תשכחו להזמין מונית ב-Bolt 🚕
+    </div>
+</div>
+
+</body>
+</html>
